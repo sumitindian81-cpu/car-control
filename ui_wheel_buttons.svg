@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520">
+  <rect width="980" height="520" fill="#0f1116"/>
+  <text x="20" y="36" fill="#ffffff" font-size="22" font-family="Arial">UI Concept: Steering Wheel Buttons (No big boxes)</text>
+  <text x="20" y="60" fill="#b7bdc7" font-size="14" font-family="Arial">Hands wheel pose me hi rahenge. Pedals = thumb-to-finger touches. Screen pe sirf indicators.</text>
+
+  <!-- Game view -->
+  <rect x="20" y="85" width="740" height="410" rx="18" fill="#1a1f2b" stroke="#3a4256" stroke-width="2"/>
+  <text x="40" y="115" fill="#9fb0d0" font-size="14" font-family="Arial">Game View + Camera Feed Overlay</text>
+
+  <!-- Steering wheel (hands) -->
+  <circle cx="210" cy="320" r="34" fill="#232a3a" stroke="#7fb0ff" stroke-width="3"/>
+  <circle cx="510" cy="290" r="34" fill="#232a3a" stroke="#7fb0ff" stroke-width="3"/>
+  <line x1="210" y1="320" x2="510" y2="290" stroke="#7fb0ff" stroke-width="6"/>
+  <text x="330" y="275" fill="#7fb0ff" font-size="12" font-family="Arial">Steering Angle (same logic)</text>
+  <text x="185" y="370" fill="#a7c6ff" font-size="12" font-family="Arial">Left Hand</text>
+  <text x="486" y="340" fill="#a7c6ff" font-size="12" font-family="Arial">Right Hand</text>
+
+  <!-- Thumb button areas (conceptual) -->
+  <circle cx="535" cy="270" r="10" fill="#ffd166"/>
+  <circle cx="555" cy="285" r="10" fill="#ffd166"/>
+  <text x="565" y="274" fill="#ffd166" font-size="12" font-family="Arial">Right thumb</text>
+
+  <circle cx="500" cy="260" r="8" fill="#8ef1c7"/>
+  <text x="400" y="245" fill="#8ef1c7" font-size="12" font-family="Arial">Index tip (touch =&gt; ACCEL)</text>
+
+  <circle cx="495" cy="305" r="8" fill="#ff7b7b"/>
+  <text x="400" y="322" fill="#ff7b7b" font-size="12" font-family="Arial">Middle tip (touch =&gt; BRAKE)</text>
+
+  <circle cx="235" cy="300" r="10" fill="#ffd166"/>
+  <text x="250" y="304" fill="#ffd166" font-size="12" font-family="Arial">Left thumb</text>
+  <circle cx="195" cy="300" r="8" fill="#c9b6ff"/>
+  <text x="70" y="290" fill="#c9b6ff" font-size="12" font-family="Arial">Index tip (touch =&gt; CLUTCH)</text>
+
+  <!-- Minimal indicators panel -->
+  <rect x="780" y="85" width="180" height="410" rx="18" fill="#131824" stroke="#3a4256" stroke-width="2"/>
+  <text x="800" y="120" fill="#ffffff" font-size="18" font-family="Arial">Indicators</text>
+
+  <!-- ACC -->
+  <rect x="800" y="150" width="140" height="60" rx="12" fill="#143125" stroke="#26d07c" stroke-width="3"/>
+  <text x="846" y="187" fill="#eafff4" font-size="18" font-family="Arial">ACC</text>
+  <text x="842" y="206" fill="#bff5d9" font-size="12" font-family="Arial">(W hold)</text>
+
+  <!-- BRK -->
+  <rect x="800" y="235" width="140" height="60" rx="12" fill="#2b1616" stroke="#ff6b6b" stroke-width="3"/>
+  <text x="846" y="272" fill="#ffecec" font-size="18" font-family="Arial">BRK</text>
+  <text x="842" y="291" fill="#ffd1d1" font-size="12" font-family="Arial">(S hold)</text>
+
+  <!-- CLU -->
+  <rect x="800" y="320" width="140" height="60" rx="12" fill="#211a34" stroke="#b8a3ff" stroke-width="3"/>
+  <text x="846" y="357" fill="#f0eaff" font-size="18" font-family="Arial">CLU</text>
+  <text x="835" y="376" fill="#dacfff" font-size="12" font-family="Arial">(Shift hold)</text>
+
+  <text x="800" y="420" fill="#b7bdc7" font-size="12" font-family="Arial">Rule:</text>
+  <text x="800" y="440" fill="#b7bdc7" font-size="12" font-family="Arial">Thumb touches finger = ON</text>
+  <text x="800" y="460" fill="#b7bdc7" font-size="12" font-family="Arial">Brake has priority</text>
+</svg>

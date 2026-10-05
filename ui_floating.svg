@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520">
+  <rect width="980" height="520" fill="#111"/>
+  <text x="20" y="35" fill="#fff" font-size="22" font-family="Arial">Option 1 (Recommended): Floating Pedals UI</text>
+  <text x="20" y="60" fill="#bbb" font-size="14" font-family="Arial">Pedals hands ke paas (steering disturb nahi hota)</text>
+
+  <!-- Game screen -->
+  <rect x="20" y="80" width="620" height="400" rx="18" fill="#1d1f27" stroke="#444" stroke-width="2"/>
+  <text x="40" y="110" fill="#9aa" font-size="14" font-family="Arial">Game View + Camera Feed Overlay</text>
+
+  <!-- Hands (wheel) -->
+  <circle cx="160" cy="300" r="32" fill="#2b2f3a" stroke="#7aa7ff" stroke-width="3"/>
+  <circle cx="380" cy="270" r="32" fill="#2b2f3a" stroke="#7aa7ff" stroke-width="3"/>
+  <line x1="160" y1="300" x2="380" y2="270" stroke="#7aa7ff" stroke-width="5"/>
+  <text x="145" y="350" fill="#9bbcff" font-size="12" font-family="Arial">Left Hand</text>
+  <text x="360" y="320" fill="#9bbcff" font-size="12" font-family="Arial">Right Hand</text>
+  <text x="235" y="255" fill="#9bbcff" font-size="12" font-family="Arial">Steering Angle (same logic)</text>
+
+  <!-- Floating pedal boxes near hands -->
+  <!-- Clutch near left hand -->
+  <rect x="70" y="170" width="130" height="70" rx="10" fill="#2a2a2a" stroke="#888" stroke-width="2"/>
+  <text x="95" y="212" fill="#fff" font-size="16" font-family="Arial">CLUTCH</text>
+
+  <!-- Brake + Accel near right hand -->
+  <rect x="440" y="150" width="150" height="70" rx="10" fill="#2a2a2a" stroke="#888" stroke-width="2"/>
+  <text x="475" y="192" fill="#fff" font-size="16" font-family="Arial">BRAKE</text>
+
+  <rect x="440" y="240" width="150" height="110" rx="12" fill="#1e3a2a" stroke="#26d07c" stroke-width="3"/>
+  <text x="468" y="300" fill="#eafff4" font-size="18" font-family="Arial">ACCEL</text>
+  <text x="470" y="325" fill="#bff5d9" font-size="12" font-family="Arial">(Pressed)</text>
+
+  <!-- Cursor finger -->
+  <circle cx="510" cy="290" r="7" fill="#ffd166"/>
+  <text x="525" y="295" fill="#ffd166" font-size="12" font-family="Arial">Index Tip Cursor</text>
+
+  <!-- Pinch note -->
+  <text x="40" y="460" fill="#ccc" font-size="13" font-family="Arial">
+    Press Rule: Cursor box ke andar + Pinch (Thumb+Index close) = Key Down
+  </text>
+
+  <!-- Legend panel -->
+  <rect x="670" y="80" width="290" height="400" rx="18" fill="#16181f" stroke="#444" stroke-width="2"/>
+  <text x="690" y="115" fill="#fff" font-size="18" font-family="Arial">Legend / Feedback</text>
+
+  <rect x="690" y="140" width="28" height="28" fill="#2a2a2a" stroke="#888" stroke-width="2"/>
+  <text x="730" y="160" fill="#ddd" font-size="14" font-family="Arial">Idle</text>
+
+  <rect x="690" y="180" width="28" height="28" fill="#2a2a2a" stroke="#ffd166" stroke-width="3"/>
+  <text x="730" y="200" fill="#ddd" font-size="14" font-family="Arial">Hover (finger inside)</text>
+
+  <rect x="690" y="220" width="28" height="28" fill="#1e3a2a" stroke="#26d07c" stroke-width="3"/>
+  <text x="730" y="240" fill="#ddd" font-size="14" font-family="Arial">Pressed (pinch)</text>
+
+  <text x="690" y="290" fill="#bbb" font-size="14" font-family="Arial">Priority rule:</text>
+  <text x="690" y="312" fill="#bbb" font-size="14" font-family="Arial">BRAKE &gt; ACCEL</text>
+
+  <text x="690" y="360" fill="#bbb" font-size="14" font-family="Arial">Keys example:</text>
+  <text x="690" y="382" fill="#bbb" font-size="14" font-family="Arial">ACCEL = W / Up</text>
+  <text x="690" y="404" fill="#bbb" font-size="14" font-family="Arial">BRAKE = S / Down</text>
+  <text x="690" y="426" fill="#bbb" font-size="14" font-family="Arial">CLUTCH = Shift</text>
+</svg>
